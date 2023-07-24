@@ -1,0 +1,85 @@
+@import "../utilidades/mixin";
+@import "../utilidades/variables";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo {
+    width: 100px;
+    margin: auto;
+}
+.fondo-color{
+    background-color: $color-principal;
+}
+.menu-color {
+    text-decoration: underline;
+    color: $color-textomenu;
+    width: 100%;
+    ul{background-color: black;
+        font-size:x-large;
+        height: auto;
+    }
+    .navbar-toggler{
+        background-color: $color-principal;
+        }
+    .dropdown-menu{    
+        background-color: $color-principal;
+        overflow: auto;
+        height: auto;}
+    
+}
+
+.menu-color:hover {
+    color: rgb(255, 0, 0);
+}
+
+.imagen-principal{
+    width: 100%;
+}
+
+.buscador {
+    height: 10rem;
+    width: 50rem;
+    position: absolute;
+    top: 60rem;
+    right: 10rem;
+    .caja-buscador{
+        padding: 5px 100px;
+        text-align: left;
+    }
+    .boton-busqueda{
+        padding: 4px 20px;
+    }
+
+}
+
+
+.productos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    img{
+        height: 10rem;
+    }
+    .ver-mas{
+        @include estilos-botones (0, 0.1rem 3.2rem);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:space-evenly;
+        
+    }
+    .text-img-uno{
+        text-align: center;
+    }
+    .text-img-dos{
+        text-align: center;
+    }
+    .text-img-tres{
+    text-align: center;
+    }
+    .text-img-cuatro{
+    text-align: center;
+    }
+}
+

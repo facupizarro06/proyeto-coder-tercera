@@ -1,0 +1,53 @@
+@import "../utilidades/variables";
+.img-tienda {
+    width: 100%;
+}
+
+
+.todos-los-productos {
+    position: absolute;
+    top: 30rem;
+    right: 32rem;
+    font-size: xx-large;
+    color: $color-textomenu;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+
+}
+.buscador-tienda {
+    position: absolute;
+    top: 35rem;
+    right: 36rem;
+}
+
+
+.menu-secundario {
+    height: auto;
+    background-color: black;
+li{
+    font-size:larger;
+    ul{
+        background-color: $color-principal;
+        border: 3px solid $color-textomenu;
+       
+    }
+}
+}
+
+
+.nav-item ::first-letter {
+    text-transform: uppercase;
+}
+
+
+.img-productos{
+
+ img {
+    height: 400px;
+    margin: 50px;
+    padding: 50px;
+    justify-content: space-around;
+}
+}
