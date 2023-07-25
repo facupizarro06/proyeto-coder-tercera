@@ -1,4 +1,26 @@
 @import "../utilidades/mixin";
+
+@media (max-width:768px){
+    main{
+    .datos{
+        top: 11rem;
+        margin-left: 1rem;
+        .datos-contactanos{
+            font-size: 2rem;
+            text-decoration: underline;
+        }
+        .datos-empresa{
+            font-size: 1rem;
+        }
+    }
+    .fondo-contact{
+        width: 100vw;
+    }
+    
+}
+  
+}
+
 main {
     .fondo-contact {
         width: 100%

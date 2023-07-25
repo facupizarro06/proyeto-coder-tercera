@@ -1,5 +1,24 @@
 @import "../utilidades/mixin";
 @import "../utilidades/variables";
+
+@media (max-width:768px) {
+    .imagen-carrito{
+        width: 7rem;
+        height: 7rem;
+    }
+    .finalizar-compra{
+        padding: 0rem;
+        width: 20rem;
+        margin-left: 3.5rem;
+    }
+    .table{
+        width: 100%;
+    }
+    .navbar{
+        width: 100vw;
+    }
+}
+
 main {
     .carrito {
         text-align: center;
