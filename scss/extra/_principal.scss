@@ -13,6 +13,9 @@
         width: 50px;
         margin: auto;
     }
+    main .imagen-principal{
+        padding: 10rem;
+    }
   .productos .imagen-uno .ver-mas-uno{
     top: 50%;
     left: 40%;
@@ -161,7 +164,7 @@
 .imagen-principal {
     padding: 20rem;
     background-image: url(../imagenes/imagen-principal.jpg);
-    background-size: 100%;
+    background-size:cover;
     background-repeat: no-repeat;
 
     .boton {
