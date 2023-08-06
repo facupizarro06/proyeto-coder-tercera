@@ -211,10 +211,13 @@
 
 @media (max-width: 768px) {
   main .imagen-tienda {
-    padding: 2rem; }
+    padding: 1.8rem; }
   main .boton {
     margin: 1rem;
     padding: 0.2rem 1rem; }
+  main .tienda-boton {
+    width: 12rem;
+    padding: 0rem, 5rem; }
   main .img-productos img {
     padding: 5rem;
     align-items: center;

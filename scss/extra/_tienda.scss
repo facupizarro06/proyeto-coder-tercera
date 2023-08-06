@@ -3,14 +3,20 @@
 @media (max-width:768px) {
     main {
         .imagen-tienda {
-            padding: 2rem;
+            padding: 1.8rem;
         }
-        .boton{
+
+        .boton {
             @include estilos-botones(1rem, 0.2rem 1rem);
         }
 
+        .tienda-boton {
+            width: 12rem;
+            padding: 0rem, 5rem;
+        }
+
         .img-productos img {
-           
+
             padding: 5rem;
             align-items: center;
             height: 400px;
@@ -119,9 +125,10 @@
         margin: 30px;
         padding: 50px;
         justify-content: space-around;
-        
+
     }
-    img:hover{
+
+    img:hover {
         transition: 1.2s;
         box-shadow: $color-textomenu 2.8px 2.5px;
         background-color: rgb(105, 105, 105);
