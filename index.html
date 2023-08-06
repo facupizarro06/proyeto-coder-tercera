@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina de venta de indumentaria y articulos de artes marciales.">
+    <meta name="keywords" content="guantes, tibiales, cabezales, vendas, boxeo, kickboxing, MMA">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/estilos.css">
-    <title>Pagina principal</title>
+    <title>elite fighters inicio</title>
 </head>
 
 <body class="fondo-color">
     <header>
         <div class="logo">
-            <img src="./imagenes/logo.jpg" alt="logo" class="logo">
+            <img src="./imagenes/logo.jpg" alt="logo de la empresa" class="logo">
         </div>
 
 
@@ -74,42 +76,48 @@
 
 
     <main>
-        <div>
-            <img src="./imagenes/imagen principal.jpg" alt="paginaprincipal" class="imagen-principal">
-            <div>
-                <form action="./paginas/tienda.html" method="get" target="_blank" class="buscador">
 
-                    <input type="search" name="buscador" placeholder="buscar" class="caja-buscador">
-                    <input type="submit" value="Buscar" class="boton-busqueda">
-
+        <div class="imagen-principal">
+            <div class="boton">
+                <form action="./index.html" method="get" target="_blank">
+                    <input type="search" placeholder="guantes fairtex">
+                    <input type="submit" value="Buscar" class="boton">
                 </form>
             </div>
         </div>
 
+
+
+
         <div class="productos">
 
-            <div>
+            <div class="imagen-uno">
                 <h2 class="text-img-uno">shorts</h2>
-                <img src="./imagenes/shorts.jpg" alt="shorts" class="imagen-uno">
+                <img src="./imagenes/shorts.jpg" alt="shorts de MMA, kickboxing y muay thai" class="imagen-uno">
+                
 
-                <button class="ver-mas"> ver mas </button>
+                <a href="./paginas/tienda.html"><button class="ver-mas-uno"> ver mas</button>
+                </a>
             </div>
-            <div>
+            <div class="imagen-dos">
                 <h2 class="text-img-dos">guantes</h2>
-                <img src="./imagenes/guantes.jpg" alt="guantes" class="imagen-dos">
-                <button class="ver-mas"> ver mas </button>
+                <img src="./imagenes/guantes.jpg" alt="guantes de boxeo de competicion y recreativos, talles desde 6 hasta 16 onzas" class="imagen-dos">
+                <a href="./paginas/tienda.html"><button class="ver-mas-dos"> ver mas </button>
+                </a>
             </div>
-            <div>
+            <div class="imagen-tres">
                 <h2 class="text-img-tres">tibiales</h2>
-                <img src="./imagenes/tibiales.jpg" alt="tibiales" class="imagen-tres">
-                <button class="ver-mas"> ver mas </button>
+                <img src="./imagenes/tibiales.jpg" alt="tibiales de MMA, kickboxing y muay thai, talles desde XS a XXL" class="imagen-tres">
+                <a href="./paginas/tienda.html"><button class="ver-mas-tres"> ver mas </button></a>
             </div>
-            <div>
+            <div class="imagen-cuatro">
                 <h2 class="text-img-cuatro">accesorios</h2>
-                <img src="./imagenes/cabezal.jpg" alt="accesorios" class="imagen-cuatro">
-                <button class="ver-mas"> ver mas </button>
+                <img src="./imagenes/cabezal.jpg" alt="accesorios e indumentaria de Artes marciales, sacos, bolsos, guantines entre otros" class="imagen-cuatro">
+                <a href="./paginas/tienda.html"><button class="ver-mas-cuatro"> ver mas </button></a>
             </div>
         </div>
+
+
 
     </main>
     <footer class="pie">
@@ -126,4 +134,3 @@
 </body>
 
 </html>
-

@@ -11,12 +11,8 @@
         width: 20rem;
         margin-left: 3.5rem;
     }
-    .table{
-        width: 100%;
-    }
-    .navbar{
-        width: 100vw;
-    }
+   
+  
 }
 
 main {
@@ -29,6 +25,13 @@ main {
     .finalizar-compra {
         text-align: center;
         @include estilos-botones (5px, 5px 100px);
+        border-radius: 6px;
+        border-color: black 5px;
+        .color-boton{
+            .finalizar-compra{
+                background-color: $color-textomenu;
+            }
+        }
       
     }
 
@@ -63,6 +66,9 @@ main {
     color: white;
     padding-bottom: 0.5rem;
 
+}
+.pie::first-letter{
+    text-transform: uppercase;
 }
 
 .fondo-color {

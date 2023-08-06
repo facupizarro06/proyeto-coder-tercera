@@ -8,6 +8,10 @@
         text-decoration: underline;
         text-transform: uppercase;
     }
+    h3{
+        color:$color-textomenu;
+    }
+    
 
     .subtitulo {
         text-transform: lowercase;
@@ -15,9 +19,10 @@
 
     .texto-preguntas-frecuentes {
         margin-bottom: 2rem;
-        color: white;
+        color: black;
         font-size: x-large;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 580;
     }
 
 }

@@ -2,62 +2,88 @@
 
 @media (max-width:768px) {
     main {
-        .img-tienda {
-            width: 100vw;
+        .imagen-tienda {
+            padding: 2rem;
+        }
+        .boton{
+            @include estilos-botones(1rem, 0.2rem 1rem);
         }
 
-        .todos-los-productos {
+        .img-productos img {
+           
+            padding: 5rem;
+            align-items: center;
+            height: 400px;
 
-            position: relative;
-            bottom: 50rem;
-            right: 5rem;
-            font-size: medium;
+        }
 
-            p {
-                position: absolute;
-                top: -40rem;
-                left: 15rem;
+        .navbar-toggler {
+            background-color: $color-principal;
+        }
+    }
+}
+
+
+.dropdown-item {
+    background-color: rgba(116, 112, 112, 0.918);
+    font-weight: bold;
+}
+
+
+
+
+.imagen-tienda {
+
+    padding: 10rem;
+    background-image: url(../imagenes/POATAN.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    .texto-tienda {
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+        font-size: xx-large;
+        color: $color-textomenu;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: lowercase;
+
+
+
+    }
+
+
+    .boton {
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+        font-size: medium;
+
+
+        form {
+            input {
+                background-color: $color-principal;
+                @include estilos-botones(0, 0.3rem 3.2rem);
+                border-color: $color-textomenu;
+                border-radius: 5px;
+                color: $color-textomenu;
             }
         }
-        .buscador-tienda{
-            visibility: hidden;
-        }
     }
-
-    .img-productos img {
-        margin: 50rem;
-        width: 20rem;
-        padding: 5rem;
-
-    }
-
-    .navbar-toggler {
-        background-color: $color-principal;
-    }
-}
-
-.img-tienda {
-    width: 100%;
-}
-
-
-.todos-los-productos {
-    position: absolute;
-    top: 30rem;
-    right: 32rem;
-    font-size: xx-large;
-    color: $color-textomenu;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    text-decoration: underline;
 
 
 }
 
-.buscador-tienda {
-    position: absolute;
-    top: 35rem;
-    right: 36rem;
+.nav-link:hover {
+    color: red;
+}
+
+.nav-link:focus {
+    color: red;
+}
+
+.dropdown-item:hover {
+    background-color: $color-textomenu;
 }
 
 
@@ -69,8 +95,12 @@
         font-size: larger;
 
         ul {
-            background-color: $color-principal;
+            background-color: rgba(116, 112, 112, 0.918);
             border: 3px solid $color-textomenu;
+
+            .dropdown-item {
+                font-weight: bolder;
+            }
 
         }
     }
@@ -86,8 +116,14 @@
 
     img {
         height: 400px;
-        margin: 50px;
+        margin: 30px;
         padding: 50px;
         justify-content: space-around;
+        
+    }
+    img:hover{
+        transition: 1.2s;
+        box-shadow: $color-textomenu 2.8px 2.5px;
+        background-color: rgb(105, 105, 105);
     }
 }
